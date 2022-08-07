@@ -15,10 +15,10 @@ const ALL_MODULES = packages;
 
 const LOCAL_GLOBALS = {
   // TODO: autogenerate
-  '@notjosh/rangy-test-util': 'window["@notjosh/rangy-test-util"]',
-  '@notjosh/rangy-textrange': 'window["@notjosh/rangy-textrange"]',
+  '@dra11y/rangy-test-util': 'window["@dra11y/rangy-test-util"]',
+  '@dra11y/rangy-textrange': 'window["@dra11y/rangy-textrange"]',
 
-  '@notjosh/rangy-core': 'rangy',
+  '@dra11y/rangy-core': 'rangy',
   qunit: 'qunit',
 };
 
@@ -82,7 +82,7 @@ export default configs;
 // const plugins: Plugin[] = [nodeResolve(), commonjs(), sourceMaps()];
 
 // //all rangy modules are external dependencies to test code
-// const external = packages.map((n) => '@notjosh/rangy-' + n);
+// const external = packages.map((n) => '@dra11y/rangy-' + n);
 
 // //map all external dependencies to global name 'rangy'
 // const globals = {};
@@ -137,7 +137,7 @@ export default configs;
 //     name: 'rangy',
 //     sourcemap: true,
 //     extend: true,
-//     globals: { '@notjosh/rangy-core': 'rangy' },
+//     globals: { '@dra11y/rangy-core': 'rangy' },
 //   },
 //   inlineDynamicImports: true,
 //   external,

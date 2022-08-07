@@ -1,11 +1,11 @@
-import * as rangy from '@notjosh/rangy-core';
+import * as rangy from '@dra11y/rangy-core';
 import {
   DomRange,
   RangyRange,
   DOMException,
   WrappedRange,
-} from '@notjosh/rangy-core';
-import '@notjosh/rangy-test-util';
+} from '@dra11y/rangy-core';
+import '@dra11y/rangy-test-util';
 
 var hasNativeDomRange = 'createRange' in document;
 

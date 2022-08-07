@@ -5,16 +5,33 @@
     "outDir": ".",
     "baseUrl": "./",
     "paths": {
-      "@notjosh/rangy-classapplier": ["../src"],
-      "@notjosh/rangy-core": ["../../rangy-core/src"],
-      "@notjosh/rangy-test-util": ["../../rangy-test-util/src"]
+      "@dra11y/rangy-classapplier": [
+        "../src"
+      ],
+      "@dra11y/rangy-core": [
+        "../../rangy-core/src"
+      ],
+      "@dra11y/rangy-test-util": [
+        "../../rangy-test-util/src"
+      ]
     }
   },
-  "include": ["**/*"],
-  "exclude": ["node_modules", "test"],
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "test"
+  ],
   "references": [
-    { "path": "../" },
-    { "path": "../../rangy-core" },
-    { "path": "../../rangy-test-util" }
+    {
+      "path": "../"
+    },
+    {
+      "path": "../../rangy-core"
+    },
+    {
+      "path": "../../rangy-test-util"
+    }
   ]
 }

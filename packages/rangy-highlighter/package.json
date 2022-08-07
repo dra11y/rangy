@@ -1,5 +1,5 @@
 {
-  "name": "@notjosh/rangy-highlighter",
+  "name": "@dra11y/rangy-highlighter",
   "description": "A cross-browser DOM range and selection library",
   "version": "3.0.1",
   "author": {
@@ -55,8 +55,8 @@
     "package:test": "yarn rollup -c ../../scripts/rollup.config.test.js"
   },
   "dependencies": {
-    "@notjosh/rangy-classapplier": "^3.0.1",
-    "@notjosh/rangy-core": "^3.0.1",
+    "@dra11y/rangy-classapplier": "^3.0.1",
+    "@dra11y/rangy-core": "^3.0.1",
     "core-js": "^3.0.1",
     "tslib": "^2.2.0"
   }

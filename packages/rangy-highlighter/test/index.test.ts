@@ -1,7 +1,7 @@
-import * as rangy from '@notjosh/rangy-core';
-import * as classapplier from '@notjosh/rangy-classapplier';
-import * as highlighter from '@notjosh/rangy-highlighter';
-import { createRangeInHtml } from '@notjosh/rangy-test-util';
+import * as rangy from '@dra11y/rangy-core';
+import * as classapplier from '@dra11y/rangy-classapplier';
+import * as highlighter from '@dra11y/rangy-highlighter';
+import { createRangeInHtml } from '@dra11y/rangy-test-util';
 
 QUnit.module('Highlighter module tests');
 

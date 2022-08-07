@@ -1,8 +1,8 @@
-import '@notjosh/rangy-test-util';
-import '@notjosh/rangy-test-util/typings';
+import '@dra11y/rangy-test-util';
+import '@dra11y/rangy-test-util/typings';
 
-import { ClassApplier, createClassApplier } from '@notjosh/rangy-classapplier';
-import * as rangy from '@notjosh/rangy-core';
+import { ClassApplier, createClassApplier } from '@dra11y/rangy-classapplier';
+import * as rangy from '@dra11y/rangy-core';
 
 QUnit.module('Class Applier module tests');
 

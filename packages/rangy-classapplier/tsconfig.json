@@ -8,10 +8,21 @@
     "composite": true,
     "tsBuildInfoFile": "./dist/.tsbuildinfo",
     "paths": {
-      "@notjosh/rangy-core": ["../rangy-core/src"]
+      "@dra11y/rangy-core": [
+        "../rangy-core/src"
+      ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "test"],
-  "references": [{ "path": "../rangy-core" }]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "test"
+  ],
+  "references": [
+    {
+      "path": "../rangy-core"
+    }
+  ]
 }

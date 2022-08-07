@@ -1,9 +1,10 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "name": "@notjosh/rangy",
+  "version": "3.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "name": "@dra11y/rangy",
   "description": "A cross-browser DOM range and selection library",
   "author": {
     "name": "Tim Down",

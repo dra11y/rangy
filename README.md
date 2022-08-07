@@ -25,7 +25,7 @@ A cross-browser JavaScript range and selection library.
 - added TextRange module back
 - unified some TypeScript to make better use of references
 
-## Guide to migrate from rangy 1.x to `@notjosh/rangy` and/or `rangy2`
+## Guide to migrate from rangy 1.x to `@dra11y/rangy` and/or `rangy2`
 
 - removed:
   - `util.extend`. Pls use [Object.assign](http://kangax.github.io/compat-table/es6/#test-Object_static_methods_Object.assign)
@@ -49,7 +49,7 @@ import 'core-js/features/object/assign';
 ## Install
 
 ```bash
-yarn add @notjosh/rangy
+yarn add @dra11y/rangy
 ```
 
 ## Documentation

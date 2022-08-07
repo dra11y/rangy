@@ -1,6 +1,6 @@
-import * as rangy from '@notjosh/rangy-core';
+import * as rangy from '@dra11y/rangy-core';
 import Bowser from 'bowser';
-import '@notjosh/rangy-test-util';
+import '@dra11y/rangy-test-util';
 
 const browser = Bowser.getParser(window.navigator.userAgent);
 QUnit.module('Browser feature tests');

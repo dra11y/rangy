@@ -1,6 +1,6 @@
-import * as rangy from '@notjosh/rangy-core';
-import * as selectionsaverestore from '@notjosh/rangy-selectionsaverestore';
-import '@notjosh/rangy-test-util';
+import * as rangy from '@dra11y/rangy-core';
+import * as selectionsaverestore from '@dra11y/rangy-selectionsaverestore';
+import '@dra11y/rangy-test-util';
 
 QUnit.module('Selection save/restore module tests');
 QUnit.test(

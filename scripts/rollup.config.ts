@@ -13,7 +13,7 @@ const INPUT_FILE = path.join(PACKAGE_ROOT_PATH, 'dist', 'build', 'index.js');
 const OUTPUT_DIR = path.join(PACKAGE_ROOT_PATH, 'dist');
 const PKG_JSON = require(path.join(PACKAGE_ROOT_PATH, 'package.json'));
 
-const isTestUtil = LERNA_PACKAGE_NAME === '@notjosh/rangy-test-util';
+const isTestUtil = LERNA_PACKAGE_NAME === '@dra11y/rangy-test-util';
 const isDevelopment = IS_DEVELOPMENT === 'true' ?? false;
 
 console.log({ LERNA_PACKAGE_NAME, isDevelopment });
@@ -21,7 +21,7 @@ console.log({ LERNA_PACKAGE_NAME, isDevelopment });
 const ALL_MODULES = packages;
 
 const LOCAL_GLOBALS = {
-  '@notjosh/rangy-core': 'rangy',
+  '@dra11y/rangy-core': 'rangy',
   ...(isTestUtil ? { qunit: 'qunit' } : {}),
 };
 

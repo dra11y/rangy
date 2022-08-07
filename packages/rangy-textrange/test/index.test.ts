@@ -1,7 +1,7 @@
-import * as rangy from '@notjosh/rangy-core';
-import * as textRange from '@notjosh/rangy-textrange';
-import '@notjosh/rangy-test-util';
-import type { constants } from '@notjosh/rangy-textrange';
+import * as rangy from '@dra11y/rangy-core';
+import * as textRange from '@dra11y/rangy-textrange';
+import '@dra11y/rangy-test-util';
+import type { constants } from '@dra11y/rangy-textrange';
 
 const container = document.createElement('div');
 container.id = 'rangy-container';

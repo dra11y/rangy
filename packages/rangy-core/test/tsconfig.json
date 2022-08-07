@@ -5,11 +5,27 @@
     "outDir": ".",
     "baseUrl": "./",
     "paths": {
-      "@notjosh/rangy-core": ["../src"],
-      "@notjosh/rangy-test-util": ["../../rangy-test-util/src"]
+      "@dra11y/rangy-core": [
+        "../src"
+      ],
+      "@dra11y/rangy-test-util": [
+        "../../rangy-test-util/src"
+      ]
     }
   },
-  "include": ["**/*"],
-  "exclude": ["node_modules", "test"],
-  "references": [{ "path": "../" }, { "path": "../../rangy-test-util" }]
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "test"
+  ],
+  "references": [
+    {
+      "path": "../"
+    },
+    {
+      "path": "../../rangy-test-util"
+    }
+  ]
 }
